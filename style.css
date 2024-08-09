@@ -1,0 +1,102 @@
+*{
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 24px;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+
+.all{
+    width: 1200px;     
+    margin: 0 auto;    
+    padding: 0 ; 
+}
+
+.headerback{
+    background-color: #1D202C;
+    color: white;
+    border-bottom: 4px solid white;
+}
+
+.header{
+    min-height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 24px;
+}
+
+.nav{
+    display: flex;
+    gap: 60px;
+    margin-right: 20px;
+}
+
+.logo{
+    display: flex;
+}
+
+.logotxt{ 
+    font-weight: 700; 
+    font-size: 32px;
+    margin-left: 8px;
+}
+
+.icon{
+    max-width: 40px;
+    max-height: 40px;
+    transform: rotate(45deg);
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+    font-weight: 400;
+}
+
+.sec1back{
+    background-color: #1D202C;
+    color: white;
+    min-height: 480px;
+}
+
+.sec1{
+    display: flex;
+    padding-top: 88px;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.bigtxt{
+    font-size: 48px;
+    font-weight: 800;
+}
+
+p{
+    font-size: 24px;
+    font-weight: 400;
+}
+
+.btn1{
+    max-width: 360px;
+    padding: 14px;
+    margin: auto 0;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    color: white;
+    background-color: #587DFF;
+}
+
+.maintxt1{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    height: 300px;
+    width: 500px;
+}
+
