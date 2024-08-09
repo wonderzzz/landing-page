@@ -114,6 +114,7 @@ h2{
     display: flex;
     margin: auto;
     gap: 80px;
+    margin-bottom: 88px;
 }
 
 .imgtxt{
@@ -122,4 +123,33 @@ h2{
     margin-top: 20px;
 }
 
+.sec3back{
+    background-color: #d9d9d9;
+    color: #1D202C;
+    min-height: 480px;
+}
 
+.sec3{
+    display: flex;
+    flex-direction: column;
+    gap: 28px;
+    justify-content: center;
+    align-items: center;
+    padding-top: 88px;
+    width: 900px;
+    margin: auto;
+}
+
+.quote{
+    display: flex;
+    font-size: 48px;
+    font-style: italic;
+    font-weight: 300;
+}
+
+.chatgpt{
+    margin-bottom: 88px;
+    text-align: left;
+    font-size: 36px; 
+    align-self: flex-end
+}
