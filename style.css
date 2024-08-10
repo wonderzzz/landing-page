@@ -1,75 +1,78 @@
-*{
+/* General Styles */
+* {
     font-family: "Inter", sans-serif;
     font-optical-sizing: auto;
-    font-weight: 700;
+    font-weight: 400;
     font-style: normal;
     font-size: 24px;
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-  }
-
-.all{
-    width: 1200px;     
-    margin: 0 auto;    
-    padding: 0 ; 
 }
 
-.headerback{
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.all {
+    width: 1200px;     
+    margin: 0 auto;    
+    padding: 0;
+}
+
+/* Header Section */
+.headerback {
     background-color: #1D202C;
     color: white;
     border-bottom: 4px solid white;
 }
 
-.header{
+.header {
     min-height: 60px;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    font-size: 24px;
 }
 
-.nav{
+.nav {
     display: flex;
     gap: 60px;
 }
 
-.icon{
+.icon {
     max-width: 100px;
     max-height: 75px;
 }
 
-a{
-    text-decoration: none;
-    color: inherit;
-    font-weight: 400;
-}
-
-.sec1back{
+/* Main Section */
+.sec1back {
     background-color: #1D202C;
     color: white;
     min-height: 480px;
 }
 
-.sec1{
+.sec1 {
     display: flex;
     padding-top: 88px;
     justify-content: space-between;
     align-items: center;
-
 }
 
-.bigtxt{
+.maintxt1 {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    height: 300px;
+    width: 500px;
+}
+
+.bigtxt {
     font-size: 48px;
     font-weight: 800;
 }
 
-p{
-    font-size: 24px;
-    font-weight: 400;
-}
-
-.btn1{
+.btn1 {
     max-width: 360px;
     padding: 14px;
     margin: auto 0;
@@ -80,28 +83,16 @@ p{
     background-color: #587DFF;
 }
 
-.maintxt1{
-    display: flex;
-    flex-direction: column;
-    gap: 20px;
-    height: 300px;
-    width: 500px;
-}
-
-.sec2{
+/* Popular Picks Section */
+.sec2 {
     display: flex;
     padding-top: 88px;
     flex-wrap: wrap;
 }
 
-.img1, .img2, .img3{
-    width: 300px;
-    height: 300px;
-}
-
-h2{
+h2 {
     display: flex;
-    flex:1 1 100%;
+    flex: 1 1 100%;
     justify-content: center;
     align-content: center;
     font-size: 48px;
@@ -110,26 +101,32 @@ h2{
     margin-bottom: 88px;
 }
 
-.items{
+.items {
     display: flex;
     margin: auto;
     gap: 80px;
     margin-bottom: 88px;
 }
 
-.imgtxt{
+.img1, .img2, .img3 {
+    width: 300px;
+    height: 300px;
+}
+
+.imgtxt {
     color: #1D202C;
     text-align: center;
     margin-top: 20px;
 }
 
-.sec3back{
+/* Quote Section */
+.sec3back {
     background-color: #d9d9d9;
     color: #1D202C;
     min-height: 480px;
 }
 
-.sec3{
+.sec3 {
     display: flex;
     flex-direction: column;
     gap: 28px;
@@ -140,27 +137,29 @@ h2{
     margin: auto;
 }
 
-.quote{
+.quote {
     display: flex;
     font-size: 48px;
     font-style: italic;
     font-weight: 300;
 }
 
-.chatgpt{
+.chatgpt {
     margin-bottom: 88px;
     text-align: left;
     font-size: 36px; 
-    align-self: flex-end
+    font-weight: 700;
+    align-self: flex-end;
 }
 
-.sec4{
+/* Sign-up Section */
+.sec4 {
     display: flex;
     margin-top: 88px;
     margin-bottom: 88px;
 }
 
-.container{
+.container {
     margin: auto;
     display: flex;
     flex-flow: column wrap;
@@ -175,7 +174,7 @@ h2{
     padding: 80px;
 }
 
-.btn2{
+.btn2 {
     width: 160px;
     padding: 14px;
     border: none;
@@ -186,11 +185,12 @@ h2{
     border: 4px solid white;
 }
 
-h3{
-    font-size:32px; 
+h3 {
+    font-size: 32px; 
+    font-weight: 700;
 }
 
-.waifer{
+.waifer {
     width: 500px;
     height: 280px;
     display: flex;
@@ -199,7 +199,8 @@ h3{
     justify-content: center;
 }
 
-.footer{
+/* Footer Section */
+.footer {
     display: flex;
     background-color: #1D202C;
     color: white;
